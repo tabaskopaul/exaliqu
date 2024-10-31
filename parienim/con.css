@@ -1,0 +1,24 @@
+/* Styles for the container */
+.container {
+    position: relative; /* Allows absolutely positioned child elements */
+    display: inline-block; /* Adjust as necessary for your layout */
+}
+
+/* Styles for the folder image */
+.folder-image {
+    display: block; /* Ensures the image behaves as a block-level element */
+    width: 100%; /* Adjust as necessary */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Styles for the bottom-aligned text */
+.bottom-aligned-text {
+    position: absolute;
+    bottom: 0; /* Aligns the text to the bottom of the container */
+    left: 50%; /* Centers the text horizontally */
+    transform: translateX(-50%); /* Centers the text precisely */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: semi-transparent background */
+    padding: 5px; /* Optional: padding for better readability */
+    font-size: 14px; /* Adjust as necessary */
+    color: #000; /* Text color */
+}
